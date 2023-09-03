@@ -41,14 +41,78 @@ html{
 
 /* Carousal */
 /* Customer Arena */
+.cust{
+    position:relative;
+}
+
 .cust_arena{
     text-align: center;
 }
 
-@media(max-width:1000px) and (min-width:530px){
-    .img-fluid{
-        width:100px !important;
-        height:100px !important;
+p.cust.h1{
+    font-size: 36px;
+}
+
+@media(max-width:600px){
+    p.cust.h1{
+        font-size: 30px;
+    }
+}
+
+/* company info */
+@media(max-width:600px){
+    p.info.h1.text-center{
+        font-size: 30px;
+    }
+}
+
+.info-para{
+    font-size: 20px;
+}
+
+/* image */
+
+/* background-image */
+.main.img-fluid{
+    background-image: url("Photos Works/leathe1.jpg");
+    width: 100% !important;
+    height: 500px !important;
+    object-fit:cover;
+    position: relative;
+    background-size: cover;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+}
+
+/* fade-bg-image */
+.main.img-fluid::before{
+    margin-top: 86px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    height: 420px;
+    width:100%;
+    top:0;
+    content: "";
+}
+
+/* text on image */
+.main-text-in{
+    font-size: 60px;
+    padding: 20px;
+    position: absolute; 
+    top:120px;
+    color: white;
+    vertical-align: middle;
+}
+/* responsive text */
+@media(max-width:600px){
+    .main-text-in{
+        font-size: 38px !important;
+        padding: 20px;
+        position: absolute; 
+        top:100px;
+        color: white;
+        vertical-align: middle;
     }
 }
 
@@ -94,6 +158,12 @@ html{
 
 .footer footer{
     color:white;
+}
+
+@media(max-width:600px){
+    .footer.container-fluid{
+        padding: 30px;
+    }
 }
 
 
