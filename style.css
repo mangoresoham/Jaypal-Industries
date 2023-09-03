@@ -55,14 +55,14 @@ p.cust.h1{
 
 @media(max-width:600px){
     p.cust.h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
 /* company info */
 @media(max-width:600px){
     p.info.h1.text-center{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
