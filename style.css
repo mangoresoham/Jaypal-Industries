@@ -107,7 +107,7 @@ p.cust.h1{
 /* responsive text */
 @media(max-width:600px){
     .main-text-in{
-        font-size: 38px !important;
+        font-size: 36px !important;
         padding: 20px;
         position: absolute; 
         top:100px;
