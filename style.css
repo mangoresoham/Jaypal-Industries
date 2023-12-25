@@ -13,6 +13,26 @@ html{
 .navbar{
     background-color: white;
     position:fixed;
+    height: 70px;
+}
+
+@media(max-width:600px){
+    a .navbar-brand{
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-brand img{
+
+       height: 40px;
+       width: 120px;
+       margin:0px;
+       padding: 0px;
+    }
+}
+
+::selection{
+    background-color: rgba(0,0,0,0.8);
+    color:#00A8F3 ;
 }
 
 /* item fonts */
@@ -86,10 +106,10 @@ p.cust.h1{
 
 /* fade-bg-image */
 .main.img-fluid::before{
-    margin-top: 86px;
+    margin-top: 60px;
     background: rgba(0,0,0,0.6);
     position: absolute;
-    height: 420px;
+    height: 440px;
     width:100%;
     top:0;
     content: "";
