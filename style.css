@@ -268,15 +268,26 @@ p.cust.h1{
 /* PRODUCTS */
 
 .product-heading{
-    background-color:#00A8F3;
+    /* background-color:#00A8F3; */
+    background-color: black;
+    color: #00A8F3;
 }
 
+.card-title{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-subtitle{
+    font-size: 12px;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* ABOUT US */
 
 .about-title{
     color:#00A8F3;
 }
+
 
 .gradient-feedback{
     background-image: linear-gradient(to left,#007BFF,black);
